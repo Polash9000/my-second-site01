@@ -1,6 +1,9 @@
 body{
-    background-color:gray;
+    
     border: 5px solid blueviolet;
+    background-attachment: fixed;
+    background-size: auto;
+    background-color: rgb(172, 181, 199);
     padding: 10px;
     border-radius: 8px;
 }
@@ -19,10 +22,8 @@ h1{
     margin-bottom: 10px;
     padding: 10px;
     border-radius: 30px;
-    width: 50%;
+    width: 95%;
     height: 50%;
-    margin: 0 auto;
-    display: block;
 }
 .mango{
     border: 5px solid yellowgreen;
@@ -31,7 +32,46 @@ h1{
     height: 200px;
     border-radius: 15px;
     margin-bottom: 10px;
-    display: inline-block;
+    position: absolute;
 
 
+}
+#jam{
+    text-align: center;
+}
+#pic{
+    text-align: center;
+}
+.moric{
+    border: 5px solid yellowgreen;
+    padding: 10px;
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    position: absolute;
+}
+.pen{
+    border: 3px solid green;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 30px;
+    width: 95%;
+    height: 50%;
+}
+.book{
+    border: 3px solid green;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 30px;
+    width: 95%;
+    height: 50%;
+    
+}
+.mama{
+    text-align: center;
+}
+#toy{
+    font-family:monospace;
+    text-align: center;
 }
